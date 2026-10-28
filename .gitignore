@@ -172,3 +172,10 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Local project data and virtual environments
+data/
+*.db
+*.sqlite3
+.venv/
+.env
