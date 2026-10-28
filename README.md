@@ -50,7 +50,7 @@ curl -X POST http://127.0.0.1:8000/products \\
 
 \`\`\`bash
 pip install -r requirements.txt
-pytest -q
+python -m pytest -q
 \`\`\`
 
 Tests use temporary SQLite databases and do not modify your local development database.
